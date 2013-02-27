@@ -14,7 +14,7 @@
 
     <url>http://cida.usgs.gov/</url>
 	
-    <inceptionYear>2012</inceptionYear>
+    <inceptionYear>2013</inceptionYear>
     <organization>
         <name>Center for Integrated Data Analytics</name>
         <url>http://cida.usgs.gov</url>
@@ -58,6 +58,22 @@
             <url>http://internal.cida.usgs.gov/maven/content/repositories/cida-snapshots/</url>
         </snapshotRepository>
     </distributionManagement>
+    
+    <scm>
+        <connection>scm:git:http://github.com/USGS-CIDA/geoutils.git</connection>
+        <developerConnection>scm:git:ssh://git@github.com/USGS-CIDA/geoutils.git</developerConnection>
+        <url>https://github.com/USGS-CIDA/geoutils</url>
+    </scm>
+    
+<!--    <ciManagement>
+        <system>Hudson</system>
+        <url>http://igsarm-cida-hudson1.er.usgs.gov:8080/hudson/job/WaterSMART</url>
+    </ciManagement>-->
+
+<!--    <issueManagement>
+        <system>JIRA</system>
+        <url>http://internal.cida.usgs.gov/jira/browse/WATERSMART</url>
+    </issueManagement>-->
 	
     <repositories>
         <repository>
