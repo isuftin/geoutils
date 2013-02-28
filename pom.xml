@@ -10,6 +10,8 @@
     <name>CIDA GeoUtils</name>
 
     <modules>
+        <module>geoutils-geoserver</module>
+        <module>geoutils-geonetwork</module>
     </modules>
 
     <url>http://cida.usgs.gov/</url>
@@ -65,12 +67,12 @@
         <url>https://github.com/USGS-CIDA/geoutils</url>
     </scm>
     
-<!--    <ciManagement>
+    <!--    <ciManagement>
         <system>Hudson</system>
         <url>http://igsarm-cida-hudson1.er.usgs.gov:8080/hudson/job/WaterSMART</url>
     </ciManagement>-->
 
-<!--    <issueManagement>
+    <!--    <issueManagement>
         <system>JIRA</system>
         <url>http://internal.cida.usgs.gov/jira/browse/WATERSMART</url>
     </issueManagement>-->
@@ -126,4 +128,3 @@
         </plugins>
     </build>
 </project>
-
